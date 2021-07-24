@@ -4,7 +4,141 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
 }
+
+.phone-header{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -20vh;
+  margin: auto;
+  width: 80vw;
+  
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  padding: 1.5% 0;
+  color: white;
+  background-image: linear-gradient(lightblue , #3d93da) ;
+  font-size: 1rem;
+  font-weight: 900 ;
+  border-radius: 5px;
+  border-style: hidden;
+}
+
+header button img{
+  height: 60%;
+  width: auto;
+  
+}
+
+header img{
+  width: 55%;
+}
+
+
+
+.topo{
+  height: 30vh;
+  width: 100vw;
+
+}
+
+.phone {
+  width: 25%;
+  margin-right: 10%;
+}
+
+.instagram{
+  width: 60%;
+}
+
+section{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2% 6%; 
+
+}
+
+section h1{
+  padding: 2% 0;
+  font-size: 2.5rem;
+  color:  #06365f;
+  width: 65%;
+}
+section p{
+  font-size: 1.1rem;
+  padding: 1% 0;
+}
+
+.app-imagens{
+  display: flex;
+  padding: 5% 0;
+ 
+}
+
+.app-imagens img{
+  width: 28%;
+  margin-right: 5% ;
+
+}
+
+footer p{
+  color: gray;
+  font-weight: 900;
+
+}
+
+footer{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  
+  
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-right: 5%;
+  
+}
+
+
+ul li a{
+  text-decoration: none;
+  font-weight: 800;
+  color: #3d93da;
+  font-weight: 900;
+}
+
+
